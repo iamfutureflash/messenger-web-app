@@ -4,6 +4,6 @@ interface Props {
 
 export default function DashboardPage({ children }: Props) {
     return (
-        <div>DashboardPage1323</div>
+        <div>Dashboard Page</div>
     )
 }
