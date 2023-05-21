@@ -1,2 +1,9 @@
-import { fchmod } from "fs";
-import { readConfigFile } from "typescript";
+interface Props {
+    children: ReactNode;
+}
+
+export default function DashboardPage({ children }: Props) {
+    return (
+        <div>DashboardPage</div>
+    )
+}
